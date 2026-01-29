@@ -1,0 +1,31 @@
+   POST   http://localhost:3010/auth/signup
+    
+   put      http://localhost:3010/auth/38
+
+    get     http://localhost:3010/user/user/getuserbyemail?email=sha1g45wx23rfw4w311fgeecff2110@gmail.com
+
+  post      http://localhost:3010/blog/
+
+   delete    http://localhost:3010/blog/9
+
+  get   http://localhost:3010/blog/details
+
+
+post   http://localhost:3010/comment/
+
+
+get   http://localhost:3010/blog/allblogsandcountcomments
+
+
+patch  http://localhost:3010/comment/10
+
+post  http://localhost:3010/comment/findorcreate
+
+
+get  http://localhost:3010/comment/?like=the
+
+
+get http://localhost:3010/comment/latest/9
+
+
+get http://localhost:3010/comment/details/10
